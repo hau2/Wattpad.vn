@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đọc Truyện Online</title>
+    <link rel="stylesheet" href="./assets/grid.css">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
     
     <!-- Icon -->
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3/css/all.min.css">
@@ -29,15 +31,43 @@
                 <a href="" class="home"><img src="./assets/img/logo.png" alt="Logo" class="header__logo-img"></a>
             </div>
             <div class="header__wrap">
-                <div class="header__list-book">
-                    <i class="fas fa-book"></i>
+                <div class="header__menu-book">
+                    <i class="header__menu-book-icon fas fa-book"></i>
                     <span>Danh sách</span>
                     <i class="ti-angle-down"></i>
+
+                    <ul class="header__book-list">
+                        <li class="header__book-item"><a href="" class="header__book-link">Đam Mỹ Hài</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Đam Mỹ Hay</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Kiếm Hiệp Hay</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Ngôn Tình Hài</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Ngôn Tình Hay</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Ngôn Tình Ngược</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Ngôn Tình Sắc</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Tiên Hiệp Hay</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Truyện Full</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Truyện Hot</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Truyện Mới Cập Nhật</a></li>
+                        <li class="header__book-item"><a href="" class="header__book-link">Truyện Teen Hay</a></li>
+                    </ul>
                 </div>
-                <div class="header__list-category">
-                    <i class="fas fa-list-ul"></i>
+                <div class="header__menu-category">
+                    <i class="header__menu-category-icon fas fa-list-ul"></i>
                     <span>Thể loại</span>
                     <i class="ti-angle-down"></i>
+                    
+                    <ul class="header__category-list">
+                        <li class="header__category-item"><a href="" class="header__category-link">Hài Hước</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Cổ Đại</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Kiếm Hiệp</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Lịch Sữ</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Đam Mỹ</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Kinh Dị</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Ngôn Tình</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Quân Sự</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Trinh Thám</a></li>
+                        <li class="header__category-item"><a href="" class="header__category-link">Thám Hiểm</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="header__search">
@@ -54,8 +84,165 @@
                 </div>
             </div>
         </nav>
-        <div class="filter"></div>
-        <div class="hot-book"></div>
+        <div class="filter">
+            <div class="filter__hot-book">
+                <span class="filter__hot-book-span">Truyện hot</span>
+                <i class="filler__icon ti-angle-right"></i>
+            </div>
+            <div class="filter__avance">
+                <select name="" id="" class="filter__select">
+                    <option value="1" selected>Tất Cả</option>
+                    <option value="2">Tuyện teen hay</option>
+                    <option value="3">Ngôn Tình Ngược</option>
+                    <option value="4">Ngôn Tình Hài</option>
+                    <option value="5">Đam Mỹ Hài</option>
+                    <option value="6">Đam Mỹ Hay</option>
+                    <option value="7">Đam Mỹ H Vấn</option>
+                    <option value="8">Truyện Full</option>
+                    <option value="9">Tiên Hiệp Hay</option>
+                </select>
+            </div>
+        </div>
+        <div class="hot-book">
+            <div class="row book-row">
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-1">
+                        <img src="./assets/img/1.png" alt="" class="hot-book-img hot-book-1-img">
+                        <h5 class="hot-book__book1-title">Chọc Tức Vợ Yêu - Mua Một Tặng Một</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">9.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-2">
+                        <img src="./assets/img/2.png" alt="" class="hot-book-img hot-book-2-img">
+                        <h5 class="hot-book__book1-title">Gió Ấm Không Bằng Anh Thâm Tình</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">9.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-3">
+                        <img src="./assets/img/3.png" alt="" class="hot-book-img hot-book-3-img">
+                        <h5 class="hot-book__book1-title">Boss Hung Dữ - Ông Xã Kết Hôn Đi</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">8.7/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-4">
+                        <img src="./assets/img/4.png" alt="" class="hot-book-img hot-book-4-img">
+                        <h5 class="hot-book__book1-title">Nàng Dâu Cực Phẩm</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">8.8/10</span>
+                    </div>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-5">
+                        <img src="./assets/img/5.png" alt="" class="hot-book-img hot-book-5-img">
+                        <h5 class="hot-book__book1-title">Boss Là Nữ Phụ</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">9.2/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-6">
+                        <img src="./assets/img/6.png" alt="" class="hot-book-img hot-book-6-img">
+                        <h5 class="hot-book__book1-title">Yêu Sâu Nặng: Đế Thiếu Âm Thầm Cưng Chiều Vợ</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">7.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+            </div>
+            <div class="row book-row">
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-7">
+                        <img src="./assets/img/7.png" alt="" class="hot-book-img hot-book-7-img">
+                        <h5 class="hot-book__book1-title">Một Thai Hai Bảo: Giám Đốc Hàng Tỉ Yêu Vợ Tận Xương</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">7.5/10</span>
+                    </div>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-8">
+                        <img src="./assets/img/8.png" alt="" class="hot-book-img hot-book-8-img">
+                        <h5 class="hot-book__book1-title">Tân Hôn Không Tình Yêu, Thế Tội Vợ Trước</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">7.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-9">
+                        <img src="./assets/img/9.png" alt="" class="hot-book-img hot-book-9-img">
+                        <h5 class="hot-book__book1-title">Độc Tôn Tam Giới</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">7.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-10">
+                        <img src="./assets/img/10.png" alt="" class="hot-book-img hot-book-10-img">
+                        <h5 class="hot-book__book1-title">Boss Hung Dữ 2 - Cả Đời Chỉ Vì Em</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">9.1/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-11">
+                        <img src="./assets/img/11.png" alt="" class="hot-book-img hot-book-11-img">
+                        <h5 class="hot-book__book1-title">Cô Vợ Thay Thế</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">6.8/10</span>
+                    </div>
+                </div>
+                <div class="item col l-2 m-4 c-4">
+                    <a href="" class="hot-book-link book-12">
+                        <img src="./assets/img/12.png" alt="" class="hot-book-img hot-book-12-img">
+                        <h5 class="hot-book__book1-title">Quỷ Đế Cuồng Thê: Đại Tiểu Thư Ăn Chơi Trác Táng</h5>
+                    </a>
+                    <div class="hot-book__rate">
+                        <i class="hot-book__rate-icon fas fa-star"></i>
+                        <span class="hot-book__quantity-span">8.5/10</span>
+                    </div>
+                    <span class="hot-book__full-span">FULL</span>
+                </div>
+            </div>
+            <div class="hot-book-see-more">
+                <button class="hot-book-see-more-btn">
+                    Xem Thêm
+                </button>
+            </div>
+        </div>
         <div class="update-hot-book"></div>
         <div class="finish"></div>
         <foot class="footer"></foot>

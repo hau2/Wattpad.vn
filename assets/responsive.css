@@ -1,0 +1,31 @@
+/* Mobile: width < 740px */
+@media only screen and (max-width: 739px){
+    .header {
+        padding: 0 16px;
+    }
+    .header__menu-book, .header__menu-category {
+        display: none;
+    }
+    .header__search-input-wrap {
+        display: none;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1023px){
+    .header {
+        padding: 0 16px;
+    }
+    .header__menu-book, .header__menu-category {
+        display: none;
+    }
+    .header__search-input-wrap {
+        display: none;
+    }
+}
+/* PC: width >= 1024px nhỏ hơn 1239px (màn hình nhỏ) */
+@media only screen and (min-width: 1024px) and (max-width: 1239px){
+
+}
+/* màn hình PC từ 1113px trở lên */
+@media only screen and (min-width:1113px) {
+}
