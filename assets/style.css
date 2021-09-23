@@ -359,8 +359,9 @@
 
 /* Footer */
 .footer {
+    color: var(--black-color);
+    opacity: 0.6;
     height: 50px;
-    background-color: rgb(224, 224, 65);
     display: flex;
     align-items: center;
     justify-content: center;
