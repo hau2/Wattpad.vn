@@ -3,11 +3,13 @@
     .app {
         width: auto;
         padding: 0 10px;
-        overflow-x: hidden;
     }
     .mobile-search-icon {
         display: block !important;
-        margin: 0 30px;
+        margin-right: 10px;
+    }
+    .header__search-adv-btn {
+        margin-right: 20px;
     }
     .body {
         display: block;
