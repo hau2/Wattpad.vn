@@ -359,6 +359,9 @@
 
 /* Footer */
 .footer {
-    height: 4000px;
-    background-color: yellow;
+    height: 50px;
+    background-color: rgb(224, 224, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
