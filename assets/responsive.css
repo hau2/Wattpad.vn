@@ -40,6 +40,10 @@
     .finish__book-content {
         margin-left: 5px;
     }
+    .path {
+        align-items: flex-start;
+        flex-direction: column;
+    }
     
 }
 /* Tablet: width >= 740px and width < 1024px */
